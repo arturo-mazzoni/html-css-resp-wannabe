@@ -81,7 +81,7 @@ img {
     width: 100%;
   }
 
-  .row>.left {
+  #lezioni .row>.left, #lezioni .row>.right {
     width: 100%;
   }
 
@@ -89,5 +89,12 @@ img {
     width: 100%;
   }
 
+  img {
+    width: 70%;
+  }
+
+  #steps .row>.left, #steps .row>.central, #steps .row>.right {
+    width: 100%;
+  }
 
 }
