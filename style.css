@@ -97,6 +97,14 @@ img {
 
 @media screen and (min-width: 420px) and (max-width: 768px) {
 
+  body {
+    background-color: lightblue;
+  }
+
+  .container.grey {
+    background-color: lightgrey;
+  }
+
   .row, #lezioni, #steps, #why {
     width: 100%;
   }
@@ -111,7 +119,7 @@ img {
   }
 
   #steps .row>.right {
-    margin: auto;
+    width: 100%;
   }
 
   img {
